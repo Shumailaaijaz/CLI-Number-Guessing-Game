@@ -1,0 +1,22 @@
+{
+  "name": "5cli-number-guessing-game",
+  "version": "2.0.2",
+  "description": "This is cli based number guessing game.",
+  "main": "index.js",
+  "type":"module",
+  "PublishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shumaila Aijaz",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
